@@ -1,0 +1,176 @@
+/* Общий фон приложения */
+QWidget {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px;
+}
+
+
+QMainWindow {
+    background-color: #4A566E;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+}
+
+QDialog {
+    background-color: #4A566E;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px;
+}
+
+/* Поле поиска */
+QLineEdit {
+    background-color: #F0F0F0;
+    color: #333333;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Кнопки */
+QPushButton {
+    background-color: #7FA1C4;
+    color: #FFFFFF;
+    border: 1px solid #5A7591;
+    border-radius: 5px;
+    padding: 7px 15px;
+    text-align: center;
+    font-weight: bold; /* Устанавливаем жирный шрифт */
+}
+
+QPushButton:hover {
+    background-color: #5A7591;
+}
+
+QPushButton:pressed {
+    background-color: #3E5366;
+}
+
+QPushButton:disabled {
+    background-color: #AAB9C6;
+    color: #7A8692;
+}
+
+/* Список задач */
+QListWidget {
+    background-color: transparent; /* Прозрачный фон */
+    border: 1px solid #CCCCCC; /* Граница остаётся видимой */
+    border-radius: 5px;
+    padding: 5px;
+}
+
+QListWidget::item {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #FFFFFF; /* Фон элементов остаётся белым (можно изменить) */
+    color: #333333; /* Цвет текста */
+    font-size: 14px;
+}
+
+QListWidget::item:selected {
+    background-color: #FFB74D; /* Фон для выбранных элементов */
+    color: #FFFFFF; /* Белый текст */
+    border: 1px solid #FF9800; /* Рамка вокруг выбранного элемента */
+}
+
+/* Чекбоксы */
+QCheckBox {
+    spacing: 5px;
+    color: #333333; /* Цвет текста для обычного состояния */
+}
+
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+}
+
+QCheckBox::indicator:checked {
+    border: 1px solid #FFA726; /* Цвет границы индикатора при выборе */
+}
+
+QCheckBox:checked {
+    color: #FFFFFF; /* Указываем цвет текста для выбранного состояния */
+}
+
+/* Радиокнопки */
+QRadioButton {
+    spacing: 5px;
+    color: #333333;
+}
+
+QRadioButton::indicator {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #CCCCCC;
+    border-radius: 9px;
+    background-color: #FFFFFF;
+}
+
+QRadioButton::indicator:checked {
+    background-color: #FFD37B;
+    border: 1px solid #FFA726;
+}
+
+/* Группы задач */
+QGroupBox {
+    border: 2px solid #B0B0B0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+QGroupBox::title {
+    background-color: #7FA1C4;
+    color: #FFFFFF;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold; /* Устанавливаем жирный шрифт для заголовков */
+}
+
+/* Метки */
+QLabel {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold; /* Устанавливаем жирный шрифт */
+}
+
+/* Виджеты-календарь и время */
+QCalendarWidget, QTimeEdit {
+    background-color: #F8F8F8;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+}
+
+/* Иконки */
+QToolButton {
+    background-color: #7FA1C4;
+    border: 1px solid #5A7591;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold; /* Устанавливаем жирный шрифт */
+}
+
+QToolButton:hover {
+    background-color: #5A7591;
+}
+
+/* Поле для заметок */
+QTextEdit {
+    background-color: #FFFFFF;
+    color: #333333;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: normal; /* Устанавливаем нормальный шрифт по умолчанию */
+}

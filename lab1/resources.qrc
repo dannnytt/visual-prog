@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/cat.jpg</file>
+        <file>images/circle.png</file>
+        <file>images/square.png</file>
+        <file>images/rectangle.png</file>
+        <file>images/triangle.png</file>
+        <file>images/trapezoid.png</file>
+        <file>images/rhombus.png</file>
+        <file>images/parallelogram.png</file>
+        <file>images/sector.png</file>
+        <file>images/sector-area.jpg</file>
+        <file>images/circle-area.png</file>
+        <file>images/parallelogram-area.png</file>
+        <file>images/rectangle-area.png</file>
+        <file>images/rhombus-area.jpg</file>
+        <file>images/square-area.png</file>
+        <file>images/trapezoid-area.png</file>
+        <file>images/triangle-area.png</file>
+    </qresource>
+</RCC>
